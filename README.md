@@ -6,7 +6,8 @@
 *Husk at fjerne alt undtaget det første resultat i json*
 
 ### Eksempel
-```{
+```javascript
+{
    "page":1,
    "total_results":4,
    "total_pages":1,
@@ -86,10 +87,12 @@
          "release_date":"1989-07-01"
       }
    ]
-}```
+}
+```
 
 Så skriv det sådan her:
-```{
+```javascript
+{
    "page":1,
    "total_results":4,
    "total_pages":1,
@@ -114,4 +117,5 @@ Så skriv det sådan her:
          "release_date":"2008-04-24"
       }
    ]
-}```
+}
+```
