@@ -119,3 +119,12 @@ Så skriv det sådan her:
    ]
 }
 ```
+
+
+### NuGet Packes
+*Install-Package Newtonsoft.Json -Version 12.0.3*
+
+
+### Root
+For at få root til at virke rigtigt skal du gøre følgende:
+**Oppe ved using skal du skrive "using static (Projectets navn).(Klassen som dine Properties ligger i)"**
